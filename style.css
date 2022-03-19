@@ -60,7 +60,7 @@
 }
 .nav_flex li a{
     text-decoration: none;
-    margin-left: 52px;
+    margin-left: 42px;
     color: black;
     font-weight: bold;
 }
@@ -191,11 +191,11 @@
     margin-top: 25px;
     padding-bottom: 80px;
 }
-.nested_card_flex{
+/* .nested_card_flex{
     display: flex;
     margin-left: 290px;
 
-}
+} */
 .card_body{
     padding-top:56px;
 }
@@ -222,12 +222,13 @@
 }
 .nested_card_flex{
     display: flex;
-    margin-left: 251px;
+   
+    
+    margin-left: 299px;
     margin-top: -35px;
 }
 .nested_card{
     display: flex;
-    margin-left: 30px;
     width: 207px;
     height: 8px;
     background-color: #f5f6fa;
@@ -409,7 +410,7 @@ color:#2d98da ;
     margin-left: 35px;
 }
 .faq{
-    font-size: 57px;
+    font-size: 54px;
     color: #192a56;
     font-weight: bold;
     margin-top: -58px;
@@ -433,10 +434,11 @@ color:#2d98da ;
     padding-right: 50px;
     margin-left: 48px;
     padding-top: 2px;
+    font-size: 15px;
 }
 .Question_flex{
     height: 50px;
-    width: 451px;
+    width: 442px;
     background-color: #f1f2f6;
     margin-top: 28px;
 }
@@ -446,11 +448,11 @@ color:#2d98da ;
 }
 .Question_flex1{
     height: 145px;
-    width: 451px;
+    width: 441px;
     background-color: #f1f2f6;
     margin-top: 28px;
     display: flex;
-    margin-left: 21px;
+    margin-left: 23px;
 }
 .symbol{
     width: 31px;
@@ -458,7 +460,16 @@ color:#2d98da ;
     padding-left: 11px;
     background: white;
     padding-top: 8px;
-    margin-left: 139px;
+    margin-left: 130px;
+    margin-top: 8px;
+}
+.symbola{
+    width: 31px;
+    height: 34px;
+    padding-left: 11px;
+    background: white;
+    padding-top: 8px;
+    margin-left: 127px;
     margin-top: 8px;
 }
 .faq_bar{
@@ -578,8 +589,10 @@ input[type=text] {
       margin-top: 50px;
   }
   .tech_symbols img{
-      width:60px;
-      height: 60px;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    margin-left: 5px;
       
   }
   .languages_flex1{
@@ -599,7 +612,7 @@ input[type=text] {
 }
   .tech_cards1{
      
-      margin-left: 70px;
+    margin-left: 62px;
     border: 2px solid #2d98da;
     padding: 20px;
   }
@@ -610,14 +623,18 @@ input[type=text] {
     padding: 20px;
 }
 .tech_cards2r{
-    margin-left: 70px;
+    margin-left: 49px;
     border: 2px solid #2d98da;
-    width:110px;
-    padding-left:10px;
+    width: 105px;
+    padding-left: 6px;
     padding-top: 18px;
 }
+.techv {
+    margin-left: 7px;
+    margin-top: 8px;
+}
 .tech_cards3{
-    margin-left: 70px;
+    margin-left: 66px;
     border: 2px solid #2d98da;
     padding: 20px;
 }
@@ -637,6 +654,7 @@ input[type=text] {
     width: 80px;
     height: 60px;
     margin-left: 3px;
+    padding-top: 5px;
 }
 .techc{
     margin-left: 21px;
@@ -660,7 +678,13 @@ margin-right: 40px;
 }
 .tech_an {
     margin-left: -2px;
-    margin-top: 14px;
+    margin-top: 11px;
+}
+.tech_cards2d{
+    margin-left: 62px;
+    border: 2px solid #2d98da;
+    padding: 21px;
+
 }
 .star_flex{
     display:flex;
@@ -695,11 +719,16 @@ margin-right: 40px;
     margin-left: 2px;
     width:80px;
 height: 60px;
+margin-top: 2px;
 }
 .pic img{
     width:100px;
     height: 110px;
     border-radius: 50px;
+}
+.techjs{
+    margin-top: 13px;
+    margin-left: 17px;  
 }
 .mary{
     font-size: 20px;
@@ -729,16 +758,17 @@ height: 60px;
 }
 .test_right{
     width: 451px;
-    height: 533px;
+    height: 603px;
     background-color: yellow;
     margin-left: 20px;
+    margin-top: -67px;
 
 }
 .right_pic img {
     width: 367px;
-    height: 462px;
-    margin-left: 42px;
-    margin-top: 38px;
+    height: 530px;
+    margin-left: 43px;
+    margin-top: 35px;
     border: 10px solid black;
 }
 .testimonial_flex{
@@ -812,6 +842,7 @@ height: 60px;
 .logo1{
     display: flex;
     color:white;
+    margin-left: -23px;
 }
 .apple1 img{
 width:50px;
@@ -904,6 +935,7 @@ margin-top: 100px;
 .t_footer{
     color: #2d98da;
     margin-left: 27px;
+    margin-top: -2px;
 
 
 }
